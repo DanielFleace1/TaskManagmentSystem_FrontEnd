@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+#app{
+  height: 100vh;
+  box-sizing: border-box;
+  width: 100vw;
+  max-width: 1440px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header{
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  height:7vh;
+  max-height: 70px;
+  font-size: 22px;
+  font-weight: 600;
+  background: linear-gradient(90deg, rgba(0,189,217,1) 0%, rgba(0,132,152,1) 100%);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#appWrapper{
+  display: flex;
+  justify-content: center ;
+  width: 100vw;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 93vh;
+  background-color: #E5F3F5
+}
+#toDoListWrapper{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  overflow-x:  auto;
+  overflow-y: auto;
+  border: solid;
+  border-color: #008498;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+#title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 10px;
+}
+#addTaskInput{
+  height: 40px;
+  width: 375px;
+  border-radius: 10px;
+  margin-left: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 5px;
+}
+#addTaskInput::placeholder{
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+#addTaskButton{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; 
+  height: 40px;
+  border-radius: 10px;
+  width: 125px;
+  border: solid;
+  border-color: #008498;
+  color:white;
+  background-color: #008498;
+  margin-left: 10px;
+}
+h2{
+  font-weight: 600;
+  border-bottom: solid;
+  border-color: lightgray;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.checkBoxContainer{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+input[type="checkbox"]{
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
