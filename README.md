@@ -1,4 +1,4 @@
-Task Management system oding challenge live Link:
+Task Management system coding challenge live Link:
 
 https://inventora-task.herokuapp.com/
 
